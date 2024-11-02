@@ -509,3 +509,118 @@ color: #2e2f42;
     font-size: 20px;
   }
 }
+.our-team {
+  background-color: #F4F4FD;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.team-title-list {
+  width: 100%;
+  list-style-type: none; 
+  color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+.team-list {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  border-radius: 0px 0px 4px 4px; 
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+.team-foto-item {
+  width: 100%;
+}
+.name-worker {
+ width: 100%;  
+ padding: 32px 0;
+}
+.team-name-person {
+  font-weight: 500;
+  font-size: 20px; 
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+  margin: 0;
+}
+.team-soc-list {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  gap: 24px;
+}
+.team-soc-list-item {
+  width: 40px;
+  height: 40px;
+}
+.team-soc-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: #404bbf;
+}
+.team-soc-icon {
+fill: #f4f4fd;
+}
+@media screen and (min-width: 768px) {
+  .container-team{
+    width: 768px;
+  }
+  .team-title-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+  .team-list {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container-team {
+    width: 1140px;
+    }
+    .team-title-list {
+      display: flex;
+      gap: 24px;
+    }
+    .team-list {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      border-radius: 0px 0px 4px 4px;
+      width: calc((100% - 72px) / 4);
+    }
+}
