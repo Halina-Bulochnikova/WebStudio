@@ -314,7 +314,7 @@ button {
   max-width: 320px;
   padding: 72px 0;
   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-  url(../images/people-office-mob-1x.jpg 1x);
+  url(../images/people-office-mob-1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
@@ -322,7 +322,8 @@ button {
 }
 @media (min-resolution: 192dpi) {
   .main-button {
-    background-image: url(../images/people-office-mob-2x.jpg 2x);
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office-mob-2x.jpg);
 }
 }
 .main-title {
@@ -373,13 +374,15 @@ button {
   max-width: 768px;
   padding: 112px 0;
   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-  url(../images/people-office-tab-1x.jpg 1x);
+  url(../images/people-office-tab-1x.jpg);
   }
   @media (min-resolution: 192dpi) {
   .main-button {
-  background-image: url(../images/people-office-tab-2x.jpg 2х);
+  background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  url(../images/people-office-tab-2x.jpg);
   }
 }
+
 .main-title {
   font-size: 56px;
   line-height: 1.07;
@@ -398,11 +401,12 @@ button {
     max-width: 1440px;
     padding: 188px 0;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-    url(../images/people-office-desk-1x.jpg 1x);
+    url(../images/people-office-desk-1x.jpg);
   }
   @media (min-resolution: 192dpi) {
     .main-button {
-    background-image: url(../images/people-office-desk-2x.jpg 2х);
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office-desk-2x.jpg);
     }
 }
 .main-title {
