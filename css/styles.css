@@ -343,9 +343,6 @@ button {
   margin-right: auto;
   margin-bottom: 72px;
   margin-left: auto;
-  padding-top: 72px;
-  padding-left: 52px;
-  padding-right: 52px;
 }
 .button {
   font-family: Roboto, sans-serif;
@@ -466,6 +463,9 @@ button {
   .section {
     padding: 96px 0 96px 0;
   }
+  .advanteges-list-text {
+   font-weight: 400;
+}
   .advantage-title-list {
     display: flex;
     column-gap: 24px;
@@ -478,11 +478,10 @@ button {
     line-height: 1.2;
     font-weight: 700;
     font-size: 36px;
-
-/* line-height: 40px; */ 
-line-height: 1.11111;
-letter-spacing: 0.02em;
-color: #2e2f42;
+    text-align: start;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
   }
 }
 
@@ -606,7 +605,7 @@ fill: #f4f4fd;
 }
 @media screen and (min-width: 768px) {
   .container-team{
-    width: 768px;
+    width: 568px;
   }
   .team-title-list {
     display: flex;
@@ -1119,6 +1118,7 @@ width: 288px;
   .input-checkbox-block {
     margin-top: 16px;
     margin-bottom: 24px; 
+    flex-shrink: 0;
 }
   .input-checkbox {
     border-radius: 2px;
