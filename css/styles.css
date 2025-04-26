@@ -987,9 +987,6 @@ width: 288px;
   .background.is-open {
   display: flex;
 }
-.is-scroll-disable {
-  overflow: hidden;
-}
   .background:not(.is-open) .modal {
     transform: translate(-50%, -50%); scale: 1.5;
   }
